@@ -9,9 +9,8 @@
     "start": "node src/server.js",
     "dev": "npx nodemon src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "react-scripts build",
-    "predeploy": "npm run build",
-    "deploy": "npm run build && gh-pages -d build "
+    "build": "react-scripts build"
+    
   },
   "keywords": [],
   "author": "",
